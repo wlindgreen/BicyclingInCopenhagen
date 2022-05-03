@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/letsgetit/</loc>
+    <loc>https://wlindgreen.github.io/BicyclingInCopenhagen/posts/letsgetit/</loc>
     <lastmod>2022-04-30T10:21:14+02:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://wlindgreen.github.io/BicyclingInCopenhagen/</loc>
     <lastmod>2022-04-30T10:21:14+02:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://wlindgreen.github.io/BicyclingInCopenhagen/posts/</loc>
     <lastmod>2022-04-30T10:21:14+02:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://wlindgreen.github.io/BicyclingInCopenhagen/categories/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://wlindgreen.github.io/BicyclingInCopenhagen/tags/</loc>
   </url>
 </urlset>

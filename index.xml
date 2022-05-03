@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bicycling in Copenhagen</title>
-    <link>/</link>
+    <link>https://wlindgreen.github.io/BicyclingInCopenhagen/</link>
     <description>Recent content on Bicycling in Copenhagen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Apr 2022 10:21:14 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Apr 2022 10:21:14 +0200</lastBuildDate><atom:link href="https://wlindgreen.github.io/BicyclingInCopenhagen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>/posts/letsgetit/</link>
+      <link>https://wlindgreen.github.io/BicyclingInCopenhagen/posts/letsgetit/</link>
       <pubDate>Sat, 30 Apr 2022 10:21:14 +0200</pubDate>
       
-      <guid>/posts/letsgetit/</guid>
+      <guid>https://wlindgreen.github.io/BicyclingInCopenhagen/posts/letsgetit/</guid>
       <description>Introduction As you might have heard, Copenhagen has in recent years been ranked the most bicycle-friendly city in the world. Latest in 2021 where Copenhagen was placed ahead of other European cities like Tallinn, Amsterdam and Helsinki according to the Cycle Cities Report compiled by money.co.uk. Copenhagen has fostered a bicycle culture unlike many other countries in the world, where people look strangely at you if you don’t own a bike.</description>
     </item>
     
