@@ -70,15 +70,13 @@
 <li>Does the weather affect Copenhageners&rsquo; cycling habits, or maybe the petrol price?</li>
 <li>How much pressure on the bike paths can we expect in the future?</li>
 </ul>
-<p>As Copenhageners we might have a perception of the bicycling behaviour, but does it aligns with reality. If we the above have caught you attention, you are encourage to get a cop of coffee, soda or beer and continue reading. <strong>Link to notebook</strong></p>
+<p>As Copenhageners we might have a perception of the bicycling behaviour, but does it aligns with reality. If we the above have caught you attention, you are encourage to get a cop of coffee, soda or beer and continue reading.</p>
 <figure><img src="/BicyclingInCopenhagen/DLB.png" width="80%" height="80%"/>
 </figure>
 
 <h2 id="a-dataset-with-a-lot-of-errors">A dataset with a lot of errors</h2>
-<p><strong>Short descriptions of missing values with table and so on.</strong></p>
-<p>A dataset of bicycle counts for 13 counting stations in Copenhagen for the period 2005 to 2014 is the basis for the examination.</p>
-<p>The map below gives an overview of the 13 counting stations.
-<em>If you are unsure about the exact location just click the bike symbols. You can also view the map in full screen by the button in the top-left corner.</em></p>
+<p>A dataset of bicycle counts for 13 counting stations in Copenhagen in the period 2005 to 2014 is the basis for the examination. The map below gives an overview of the 13 counting stations.</p>
+<p><em>If you are unsure about the exact location just click the bike symbols. You can also view the map in full screen by the button in the top-left corner.</em></p>
 <iframe src="/BicyclingInCopenhagen/folium_html/folium_13CS.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
@@ -86,6 +84,11 @@
 	scrolling ="no"
 	frameborder="1">
 </iframe>
+<p>When working with data you might expect some data quality issues. The data that have been utilized in this examination, has been taken from the <a href="https://www.opendata.dk/city-of-copenhagen/faste-cykeltaellinger">Opendata.dk</a> offered by the City of Copenhagen, and has subsequently undergone a major data pre-processing to make the data usable for the analysis. You can find the scrutinising and cleansing of the data in the <a href="https://github.com/wlindgreen/SocialDataAnalysisAndVisualizations2022">Notebook</a>. To sum up, the contains around 88.000 rows in the data period for the 13 counting stations. The table below gives an overview of some of the missing data observations for each year for each location and indicates why data sometimes can be cumbersome.</p>
+<figure><img src="/BicyclingInCopenhagen/Table_NoOfDays.png" width="100%" height="100%"/>
+</figure>
+
+<p>Though the data is far from perfect, it is deemed to be sufficient to show bicycle patterns and predict future bicycle counts in Copenhagen.</p>
 <h1 id="bicycle-patterns-in-copenhagen">Bicycle patterns in Copenhagen</h1>
 <p>As a commuter, you might have an assumption of when to go to work or school in the morning to avoid too many fellow road users, no matter if you travel by car, bike, or public transport. You might also be less willing to jump on your bike in January compared to June due to inferior weather conditions. In the following, you will see the temporal patterns for bicyclists in Copenhagen throughout the day, week and year. <em>Perhaps you might be surprised!</em></p>
 <h3 id="daily-patterns">Daily patterns</h3>
@@ -231,7 +234,7 @@
 </ul>
 <p>You may be surprised that there is more cycling in the fall than in the spring. There may be several explanations for this. It could be more demanding for an individual to change behaviour and it most often takes time to change habits, which thus also applies to the choice of means of transport. The weather might also influence the individual to get on the bike. The average temperature is around 2.5 °C higher in the Autumn with an average temperature of 10.1 °C compared to the spring of 7.6 °C based on the <a href="https://www.dmi.dk/vejrarkiv/manedens-sasonens-og-arets-vejr/tekst-kort-og-nogletal-sason/">ten-year average in Copenhagen</a>. Although the sun shines more in the spring and there are fewer rainy days, it seems that Copenhageners do not mind cycling in rainy weather, as long as it is not too cold. <em>This will be examined in more detail at a later stage.</em></p>
 <h3 id="yearly-development">Yearly development</h3>
-<p>By now, different visualizations have shown revealed temporal patterns for the average bicycle counts in Copenhagen. The following shows how the bicycle counts have changed from the year 2006 to the year 2014 (2005 is omitted due to lack of representativeness, c.f. the Explainer Notebook).</p>
+<p>By now, different visualizations have shown revealed temporal patterns for the average bicycle counts in Copenhagen. The following shows how the bicycle counts have changed from the year 2006 to the year 2014 (2005 is omitted due to lack of representativeness, c.f. the table in the <em>Introduction</em>).</p>
 <figure><img src="/BicyclingInCopenhagen/Yearly_y.png" width="80%" height="80%"/>
 </figure>
 
@@ -281,7 +284,7 @@
 </figure>
 
 <h1 id="predictions">Predictions</h1>
-<p>Until now, several aspects of cycling in Copenhagen have been presented, all of which provided an interesting insight into a world-renowned cycling culture. Now is the time to use this knowledge to predict what is important for cycling in Copenhagen as well as predict how much pressure we can expect on the bike paths of Copenhagen in the future. Since we know that you are extremely excited about the results, the boring explanation about the Machine Learning Models will be kept short, and then you can always refer to the <a href="xx">Notebook</a> if you strive for more insights. Two models have been tested: a <em>Random Forrest Regressor</em> and a <em>Multiple Linear Model</em>. The former has been used to determine the importance of different factors that could influence bicycling in Copenhagen and the latter has been utilized to predict the number of cyclists at one of the major gateways to the city centre, Åboulevarden. Both models are <a href="https://machinelearningmastery.com/classification-versus-regression-in-machine-learning/">regression models</a>, which enables to predict a continuous quantity – in this case, the average daily bicycle counts. The models have been built around a data set containing possible determinants including, weather conditions, weekends/weekdays, the petrol price as well as the year and month. These are all assessed to have a possible impact on the daily cycle number.</p>
+<p>Until now, several aspects of cycling in Copenhagen have been presented, all of which provided an interesting insight into a world-renowned cycling culture. Now is the time to use this knowledge to predict what is important for cycling in Copenhagen as well as predict how much pressure we can expect on the bike paths of Copenhagen in the future. Since we know that you are extremely excited about the results, the boring explanation about the Machine Learning Models will be kept short, and then you can always refer to the Notebook](<a href="https://github.com/wlindgreen/SocialDataAnalysisAndVisualizations2022">https://github.com/wlindgreen/SocialDataAnalysisAndVisualizations2022</a>) if you strive for more insights. Two models have been tested: a <em>Random Forrest Regressor</em> and a <em>Multiple Linear Model</em>. The former has been used to determine the importance of different factors that could influence bicycling in Copenhagen and the latter has been utilized to predict the number of cyclists at one of the major gateways to the city centre, Åboulevarden. Both models are <a href="https://machinelearningmastery.com/classification-versus-regression-in-machine-learning/">regression models</a>, which enables to predict a continuous quantity – in this case, the average daily bicycle counts. The models have been built around a data set containing possible determinants including, weather conditions, weekends/weekdays, the petrol price as well as the year and month. These are all assessed to have a possible impact on the daily cycle number.</p>
 <h3 id="what-influences-ones-choice-to-commute-by-bike">What influences one’s choice to commute by bike?</h3>
 <p>The <em>Random Forrest Regressor</em> resulted in some both expected and surprising findings. The figure below gives an overview of the magnitude of the features in the model that have an impact on the daily bicycling in Copenhagen.</p>
 <p><strong>Figure</strong></p>
