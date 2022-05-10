@@ -48,7 +48,11 @@
 	<div class="nav">
     
 		
-      <a class="nav- " role="presentation" href="/BicyclingInCopenhagen/posts/letsgetit">Press here to get started!</a>
+      <a class="nav- " role="presentation" href="https://github.com/wlindgreen/SocialDataAnalysisAndVisualizations2022/blob/main/Final%20Project.ipynb">Notebook</a>
+		
+      <a class="nav- " role="presentation" href="/BicyclingInCopenhagen/posts/letsgetit">Press here to get started</a>
+		
+      <a class="nav- " role="presentation" href="https://github.com/wlindgreen/SocialDataAnalysisAndVisualizations2022/tree/main/Data">Data</a>
 		
 	</div>
 </header>
@@ -85,7 +89,7 @@
 	scrolling ="no"
 	frameborder="1">
 </iframe>
-<p>When working with data you might expect some data quality issues. The data that have been utilized in this examination, has been taken from the <a href="https://www.opendata.dk/city-of-copenhagen/faste-cykeltaellinger">Opendata.dk</a> offered by the City of Copenhagen, and has subsequently undergone a major data pre-processing to make the data usable for the analysis. You can find the scrutinising and cleansing of the data in the <a href="https://github.com/wlindgreen/SocialDataAnalysisAndVisualizations2022">Notebook</a>. To sum up, the data contains around 88 thousand rows in the data period for the 13 counting stations. The table below gives an overview of some of the missing data observations for each year for each location and indicates why data sometimes can be cumbersome.</p>
+<p>When working with data you might expect some data quality issues. The data that have been utilized in this examination, has been taken from the <a href="https://www.opendata.dk/city-of-copenhagen/faste-cykeltaellinger">Opendata.dk</a> offered by the City of Copenhagen, and has subsequently undergone a major data pre-processing to make the data usable for the analysis. You can find the scrutinising and cleansing of the data in the <a href="https://github.com/wlindgreen/SocialDataAnalysisAndVisualizations2022/blob/main/Final%20Project.ipynb">Notebook</a>, which imports files from the following <a href="https://github.com/wlindgreen/SocialDataAnalysisAndVisualizations2022/tree/main/Data">Data folder</a>. To sum up, the data contains around 88 thousand rows in the data period for the 13 counting stations. The table below gives an overview of some of the missing data observations for each year for each location and indicates why data sometimes can be cumbersome.</p>
 <figure><img src="/BicyclingInCopenhagen/Table_NoOfDays.png" width="80%" height="80%"/>
 </figure>
 
@@ -236,13 +240,19 @@
 <p>You may be surprised that there is more cycling in the fall than in the spring. There may be several explanations for this. It could be more demanding for an individual to change behaviour and it most often takes time to change habits, which thus also applies to the choice of transport means. The weather might also influence the individual to get on the bike. The average temperature is around 2.5 °C higher in the Autumn with an average temperature of 10.1 °C compared to the spring of 7.6 °C based on the <a href="https://www.dmi.dk/vejrarkiv/manedens-sasonens-og-arets-vejr/tekst-kort-og-nogletal-sason/">ten-year average in Copenhagen</a>. Although the sun shines more in the spring and there are fewer rainy days, it seems that Copenhageners do not mind cycling in rainy weather, as long as it is not too cold. <em>This will be examined in more detail at a later stage.</em></p>
 <details close>
 <summary> 
-<p style="color:#00008B;"> PRESS HERE TO SEE MORE! </p>
+<style>
+.center {text-align: center; color: #00008B;;}
+</style>
+<body>
+<p class="center">PRESS HERE TO SEE THE SEASONAL PATTERNS FOR EACH LOCATION</p> 
+</body>
 </p>
 </summary>
 <br>
 <figure><img src="/BicyclingInCopenhagen/12CS_SeasonalPatterns.png" width="100%" height="100%"/>
 </figure>
 
+<p>Overall, the same tendancy as we saw at the aggregated figure also appears when observing the different locations. Though, some of them differs, in particular <em>Fredensbro</em>. <em>Fredensbro</em> is difficult to understand, but there have most likely been irregularities in the data collection.</p>
 </details>
 <h3 id="yearly-development">Yearly Development</h3>
 <p>By now, different visualizations have shown revealed temporal patterns for the average bicycle counts in Copenhagen. The following shows how the bicycle counts have changed from the year 2006 to the year 2014 (2005 is omitted due to lack of representativeness, c.f. the table in the <em>Introduction</em>).</p>
@@ -252,13 +262,19 @@
 <p>An increase of around 71 % can be seen from the year 2006 to 2014, which is an average annual percentage increase of about 9 %. Though the yearly development fluctuates throughout the years, which could be due to the weather conditions, political initiatives, road work etc., we see a slow linear increase in the number of cyclists in Copenhagen. From 2010 to 2014 the number of cyclists increases with 36 %. A similar increase is also revealed from the Danish Road Directorates bicycle index in the same period with <a href="https://www.vejdirektoratet.dk/tema/cykler-paa-vejene">an increase of 25 %</a> in the whole of Denmark. This shows that the development of bicycle traffic in Copenhagen is moving faster than in the rest of Denmark.</p>
 <details close>
 <summary> 
-<p style="color:#00008B;"> PRESS HERE TO SEE MORE! </p>
+<style>
+.center {text-align: center; color: #00008B;;}
+</style>
+<body>
+<p class="center">PRESS HERE TO SEE THE YEARLY DEVELOPMENT FOR EACH LOCATION</p> 
+</body>
 </p>
 </summary>
 <br>
 <figure><img src="/BicyclingInCopenhagen/12CS_YearlyPatterns.png" width="100%" height="100%"/>
 </figure>
 
+<p>Some of the locations show no significant development but fluctuate over the years. Though others experience an upward pattern, particularly in the years from 2011 to 2014, including <em>Åboulevarden</em>, <em>Tuborgvej</em> and <em>Hareskovvej</em>. What may have caught your eye,  <em>Fredensbro</em>, experienced a huge increase in 2011 and 2012 may be due to several things, but one thing is for sure, it is not a realistic picture of reality. It has been found that the bridge has been <a href="https://da.wikipedia.org/wiki/Fredensbro">under construction</a> in the years 2013 and 2014, which can explain the drop to some extent. Though, has not been possible to explain the increase from 2010 to 2011.</p>
 </details>
 <h1 id="cycle-superhighways">Cycle Superhighways</h1>
 <p>The Cycle Superhighways is one of Copenhagen&rsquo;s flagships within bicycle projects in recent years. Connecting the suburbs with downtown Copenhagen using larger lanes and green waves, is what the project stands for. With the first two routes opening back in 2012 and 2013, it opens up the question, how did the Superhighways influence the bicycle demand on the routes and the adjacent areas?</p>
@@ -440,13 +456,11 @@
 <p>The second figure (B), which illustrates the expected average daily bicycle count at Åboulevarden at a monthly level presents the seasonal fluctuations. As shown above the bicycle demand peaks every year in September and the tendency of people to be off in July also appears.</p>
 <p>The results indicate a yearly increase of around 7.5 % with a maximum number of cyclists in September 2030 of around 26.000. Decisionmakers can utilize such models to ensure that the Copenhagen bicycle paths can keep up with the demand so that Copenhagen can become an even greener and even more superior city to cycle around in.</p>
 <h1 id="summing-up">Summing Up</h1>
-<p>&hellip;</p>
+<p>The number of Copenhageners using their bikes has been increasing over the last years contributing to a step toward a greener future. If this increase must keep going as it hopefully will, it is required that the capacity on the bicycle lanes is kept up. One initiative that is implemented in Copenhagen to handle the increasing demand is the Cycle Superhighways first introduced back in 2012. Based on the minor investigation of these in this study they are deemed to be a success as they have attracted many new cyclists. Let us hope we will see even more Cycle Superhighways in the future.</p>
+<p>Most often when thinking of bicycling in Copenhagen we picture the Copenhageners as people cycling in all types of weather as if they were immune to bad weather. The study finds that this is not remotely true. The number of cyclists on the bicycle paths is significantly lower in the winter as compared to the autumn when the numbers are the highest. The Copenhageners might not be as hardcore cyclists as their reputation claims. However, wind and precipitation do not seem to have that much of an influence and could have some hold.
+Based on the predictions done in this study we are looking into a future with way more cyclists and thereby much more stress on the bicycle network. It will be very interesting to follow how the next generation of wise heads will approach the challenge of reducing the stress on the bike paths and see what kind of new and innovative solutions will be brought to the table.</p>
 <p>However, one important note to bring from here is the reasonable large uncertainty with the conducted analysis and every conclusion made should not be overemphasized for your future life although we hope the website has given you the next topic of conversation at the dinner table.</p>
-<details close>
-<summary>Want to ruin the surprise?</summary>
-<br>
-Well, you asked for it!
-</details>
+
     </section>
   </article>
 </main>
