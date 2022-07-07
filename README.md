@@ -1,1 +1,1 @@
-Website for the for the Final Project in DTU course Social Data Analysis and Visualizations (2022)
+Website for the Final Project in DTU course 02806 - Social Data Analysis and Visualizations (2022)
